@@ -34,7 +34,6 @@ receive() external payable {
 컨트랙트에서 권한 변경하는 함수는 한 개 이상이 될 수 있습니다.  
 하지만 함수에 접근 할 수 있는 검증 로직이 다르다면,  
 보다 허술한 검증을 하는 함수를 호출해서 쉽게 권한 변경을 할 수 있게됩니다.  
-
 해당 문제에서 contribute()와 receive() 함수에서 owner 권한으로 변경 할 수 있는데,  
 contribute에서는 if문을 통과한 뒤 "owner = msg.sender"까지 닿기 힘들어보입니다.  
 하지만 receive() 함수를 보면 owner로 권한 변경이라는 똑같은 기능을 수행하는데  
