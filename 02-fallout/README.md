@@ -57,7 +57,7 @@ cast send <인스턴스 주소> "collectAllocations()" --rpc-url <RPC_URL> --acc
 ```
 
 **flag!**
-![fallout](./fallout.png)
+<img src="./fallout.png" width="400">
 
 ## 수정 방안
 ```solidity

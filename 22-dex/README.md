@@ -56,7 +56,7 @@ await contract.swap(await contract.token1(), await contract.token2(), 41)
 await contract.swap(await contract.token2(), await contract.token1(), 45)
 ```
 **flag!**
-![dex](./dex.png)
+<img src="./dex.png" width="400">
 
 ## 수정 방안
 ```solidity

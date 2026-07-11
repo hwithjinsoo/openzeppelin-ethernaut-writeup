@@ -71,7 +71,7 @@ cast send <CallTelephone 인스턴스 주소> "call()" --rpc-url <RPC_URL> --acc
 ```
 
 **flag!**
-![telephone](./telephone.png)
+<img src="./telephone.png" width="400">
 
 ## 수정 방안
 ```solidity
