@@ -15,3 +15,4 @@ contract CallTelephone {
         target.changeOwner(msg.sender);
     }
 }
+

@@ -9,8 +9,9 @@ Web3 기본기 및 버그바운티 역량 강화를 목표를 잡고
 ## 진행 현황
 
 | 22 | [Dex](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/blob/main/22-dev) 
-| 01 | [fallback](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/01-fallback) 
-| 02 | [fallout](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/02-fallout)
+| 01 | [Fallback](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/01-fallback) 
+| 02 | [Fallout](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/02-fallout)  
+| 04 | [Telephone](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/04-telephone)
 
 
 ## 폴더 구조
