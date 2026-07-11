@@ -70,6 +70,9 @@ contract CallTelephone {
 cast send <CallTelephone 인스턴스 주소> "call()" --rpc-url <RPC_URL> --account <지갑 계정>
 ```
 
+**flag!**
+![telephone](./telephone.png)
+
 ## 수정 방안
 ```solidity
 function changeOwner(address _owner) public {

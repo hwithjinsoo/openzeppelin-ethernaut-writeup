@@ -49,6 +49,8 @@ cast send <인스턴스 주소> "contribute()" --value 0.0001ether --rpc-url <RP
 cast send <인스턴스 주소> --value 0.0001ether --rpc-url <RPC_URL> --account <지갑 계정>
 cast send <인스턴스 주소> "withdraw()" --rpc-url <RPC_URL> --account <지갑 계정>
 ```
+**flag!**
+![Fallback](./fallback.png)
 
 ## 수정 방안
 ```solidity

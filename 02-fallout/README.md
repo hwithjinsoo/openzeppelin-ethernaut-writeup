@@ -56,6 +56,9 @@ cast send <인스턴스 주소> "Fal1out()" --value 0ether --rpc-url <RPC_URL> -
 cast send <인스턴스 주소> "collectAllocations()" --rpc-url <RPC_URL> --account <지갑 계정>
 ```
 
+**flag!**
+![fallout](./fallout.png)
+
 ## 수정 방안
 ```solidity
 contract Fallout {
