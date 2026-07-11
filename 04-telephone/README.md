@@ -70,8 +70,8 @@ contract CallTelephone {
 cast send <CallTelephone 인스턴스 주소> "call()" --rpc-url <RPC_URL> --account <지갑 계정>
 ```
 
-**flag!**
-<img src="./telephone.png" width="400">
+**flag!**  
+<img src="./telephone.png" width="500">
 
 ## 수정 방안
 ```solidity
