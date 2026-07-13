@@ -1,5 +1,4 @@
 # openzeppelin-ethernaut
-
 [Ethernaut](https://ethernaut.openzeppelin.com/) 워게임의 스마트 컨트랙트 취약점 분석 및 익스플로잇
 
 Web3 기본기 및 버그바운티 역량 강화를 목표를 잡고  
@@ -7,26 +6,26 @@ Web3 기본기 및 버그바운티 역량 강화를 목표를 잡고
 
 
 ## 진행 현황
-
-| 22 | [Dex](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/blob/main/22-dev) 
 | 01 | [Fallback](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/01-fallback) 
 | 02 | [Fallout](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/02-fallout) 
 | 04 | [Telephone](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/04-telephone) 
+| 05 | [Token](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/05-token) 
+| 09 | [King](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/tree/main/09-king) 
+| 22 | [Dex](https://github.com/hwithjinsoo/openzeppelin-ethernaut-writeup/blob/main/22-dev) 
+
 
 
 ## 폴더 구조
-
 ```
 openzeppelin-ethernaut/
 ├── README.md
-├── 22-dex/
+├── 01-Fallback/
 │   ├── contract.sol       # 전체 컨트랙트 코드
 │   └── README.md          # 취약점 분석 및 익스플로잇 로직
 └── ...
 ```
 
 ## 작성 원칙
-
 각 레벨 문서는 아래 순서로 통일하여 작성합니다.
 
 1. **취약점 요약** — 어떤 종류의 취약점인지, 문제 핵심 개념 소개
@@ -34,10 +33,10 @@ openzeppelin-ethernaut/
 3. **취약 코드** — 문제가 되는 코드 스니펫
 4. **원인 분석** — 왜 취약한지, 정상적인 설계와의 차이
 5. **익스플로잇 로직** — 단계별 공격 시퀀스
-6. **수정 방안** — 취약한 코드 개선 
-7. **CWE 분류** — 해당되는 CWE,CVE 번호 및 명칭
+6. **flag** — flag image
+7. **수정 방안** — 취약한 코드 개선 
+8. **CWE 분류** — 해당되는 CWE,CVE 번호 및 명칭
 
 ## Contact
-
-- Blog: (hwithJlog 링크)
+- Blog: (https://hwith-jlog.vercel.app/)
 - GitHub: (프로필 링크)
